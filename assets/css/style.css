@@ -91,7 +91,7 @@ header {
 }
 
 .banner .sliders {
-    width:  1000vw;
+    width: 1000vw;
     height: 100%;
 }
 
@@ -99,7 +99,7 @@ header {
     width: 100vw;
     height: 100%;
     display: inline-block;
-    background-color: rgba(0,0,0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .banner .slidearea {
@@ -171,7 +171,7 @@ header {
 .default .section-desc {
     font-size: 12px;
     color: #CCC;
-    margin-top: 10px ;
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
@@ -198,24 +198,54 @@ header {
     color: #fff;
 }
 
+/* css de áreas específicas*/
 
-/* css de áreas específicas
-*/
 .section-aboutus {
     display: flex;
 }
+
 .section-aboutus--left {
     flex: 1;
 }
+
 .section-aboutus--left p {
     font-size: 14px;
     line-height: 25px;
 }
+
 .section-aboutus--right {
     width: 520px;
     text-align: center;
 }
+
 .section-aboutus--right img {
     width: 480px;
     box-shadow: 0px 5px 10px #333;
+}
+
+.section-services {
+    display: flex;
+}
+
+.section-service:first-child {
+    border-left: 1px solid #333;
+}
+
+.section-service {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+
+.section-service h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-service p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #CCC;
 }
